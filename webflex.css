@@ -32,6 +32,7 @@ nav a:hover {
   border-radius: 20px;
   width: 90%;
   padding: 30px;
+  line-height: 2rem;
 }
 .section1.description {
   margin-bottom: 15px;
