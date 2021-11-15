@@ -1,55 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
-     text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+  font-family: "Dancing Script", cursive;
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-family: "Road Rage", cursive;
 }
-header,.nav {
-    position: fixed;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mochiy+Pop+P+One&family=Road+Rage&display=swap");
+header,
+.nav {
+  position: fixed;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   box-shadow: 1px 1px 1px 1px rgb(151, 146, 146);
   height: 10vh;
   width: 100vw;
+  background-color: rgb(230, 222, 222);
+  top: 0;
+}
+
+nav a:hover {
+  background-color: rgb(210, 218, 221);
+  padding: 20px;
+  border-radius: 10%;
+}
+.section1 {
+  margin: 6em auto;
+  border: 1px solid rgb(214, 205, 205);
+  border-radius: 20px;
+  width: 90%;
+  padding: 30px;
+}
+.section1.description {
+  margin-bottom: 15px;
+}
+
+.continer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.photo1,
+.photo2,
+.photo3 {
+  margin: 30px auto;
+  border: 1px solid;
+  background-color: lightgrey;
+  border-radius: 30px;
+  width: 20rem;
+  height: 23rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+figure {
+  width: 8em;
+  height: 3em;
+  background-color: lawngreen;
+  border-radius: 50% 0% 50% 50%;
+ 
+
  
 }
-a:hover{
-    background-color: lightblue;
-    padding: 20px;
-    border-radius: 10%;
+figure p{
+padding-top: .5em;
+text-align: center;
 }
-.section1{
-    margin: 30px auto;
-    border: 1px solid rgb(214, 205, 205);
-   border-radius: 20px;
-    width: 90%;
-    padding: 30px;
-}
-.section1.description{
-    margin-bottom: 15px;
-}
-
-.continer{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-.photo1,.photo2,.photo3{
-   margin: 30px auto;
-   border: 1px solid ;
-   background-color: lightgrey;
-  border-radius: 30px;
-    width: 20rem;
-    height: 23rem;
-   
-}
-figure
+.more
 {
-    width: 8em;
-    height: 3em;
-    background-color: lawngreen;
-    border-radius: 50% 0% 50% 50%; 
-    text-align: center;
+    padding: 10px;
+     border-radius: 10%;
+    background-color: #e42c64;
 }
-
+.more:hover{
+    background-color: lightseagreen;
+}
