@@ -85,4 +85,26 @@ picture figure img{
   width: 6rem;
  
 }
+section.row-ruls{
+  width: 80%;
+--main-bg-color:rgb(214, 205, 205);;
+ display: flex;
+ border-radius: 10px;
+  margin: 0px auto;
+  border: 1px solid;
+  border-color: var(--main-bg-color);
+}
+#rules {
+ font-weight: 800;
+ font-size: 2em;
+padding:3rem;
+ justify-content: center;
+ border-right: 2px solid ;
+}
+.ruls-datal{
+  flex-grow: 2;
+  padding:3rem;
+
+}
+
 
