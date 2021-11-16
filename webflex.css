@@ -85,6 +85,7 @@ picture figure img{
   width: 6rem;
  
 }
+/* section ruls */
 section.row-ruls{
   width: 80%;
 --main-bg-color:rgb(214, 205, 205);;
@@ -98,13 +99,26 @@ section.row-ruls{
  font-weight: 800;
  font-size: 2em;
 padding:3rem;
- justify-content: center;
+display: flex;
+ align-items: center;
  border-right: 2px solid ;
+
 }
 .ruls-datal{
   flex-grow: 2;
-  padding:3rem;
+  padding:4rem;
 
+}
+/* table */
+table{
+  margin: 0 auto;
+  width: 80%;
+}
+table, th, td {
+  border: 1px solid black;
+}
+td:hover{
+  background-color: chartreuse;
 }
 
 
