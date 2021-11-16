@@ -105,7 +105,7 @@ display: flex;
 
 }
 .ruls-datal{
-  flex-grow: 2;
+  flex-grow: 1;
   padding:4rem;
 
 }
@@ -119,6 +119,26 @@ table, th, td {
 }
 td:hover{
   background-color: chartreuse;
+}
+@media screen and (max-width:925px) {
+  .row-ruls{
+    /* width: 50%vw; */
+    padding:2px;
+    /* height:60vh ; */
+   
+    font-size: 15px;
+  }
+  #rules{
+    padding: 0;
+    font-size: 2em;
+  }
+  .ruls-datal{
+    padding: 2px;
+  }
+  .description-continer{
+    margin-top: 7rem;;
+    color: royalblue;
+  }
 }
 
 
